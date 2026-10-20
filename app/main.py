@@ -14,7 +14,7 @@ from . import service as S
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 STATIC = os.path.join(os.path.dirname(__file__), "static")
-app = FastAPI(title="基金分析助手")
+app = FastAPI(title="🐏🐏的基金理财分析助手")
 
 
 @app.on_event("startup")
